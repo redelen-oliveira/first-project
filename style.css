@@ -22,6 +22,10 @@ header h1 {
     
 }
 
+header > p {
+    padding-bottom: 30px;
+}
+
 nav {
     text-align: left;
     margin-left: 15px;
@@ -30,13 +34,15 @@ nav {
 nav >a {
     margin-right: 20px;
     padding: 7px;
-    color: aliceblue;
+    color: #cbed8bd4;
     text-decoration: none;
 }
 
 nav > a:hover {
     background-color: #67862D;
     border-radius: 5px;
+    color: #30332B;
+    font-weight: bolder;
     transition-duration: 0.5s;
 }
 
@@ -104,6 +110,8 @@ div.video iframe {
 aside {
     border-radius: 15px;
     background-color: #44ad31b1;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 aside > h3 {
