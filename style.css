@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(arq/fontes/idroid.otf) format('truetype');
+}
+
+body {
+    margin: 0px;
+    background-color: #67862D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient(178deg,  #90c430, #30332B);
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+header h1 {
+    margin: 0px;
+    
+}
+
+nav {
+    text-align: left;
+    margin-left: 15px;
+}
+
+nav >a {
+    margin-right: 20px;
+    padding: 7px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: #67862D;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color:white ;
+
+    margin: auto;  
+    padding: 15px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+img {
+    width: 700px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+p {
+    text-indent: 30px;
+}
+
+strong {
+    color: #3bad11;
+
+}
+
+p > a {
+    background-color: #3bad11;
+    padding: 1px 6px;
+    color: black;
+    text-decoration: none;
+}
+
+
+img.peq {
+    max-width: 350px;
+}
+
+main h2.spec{
+    background-image: linear-gradient(90deg, #3bad11, #3bad1100 80%);
+    padding: 3px;
+    margin-top: 10px;
+    font-family: 'myfont';
+    
+}
+
+div.video {
+    background-color: #414f2b;
+    margin: 0px -15px 30px -15px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+aside {
+    border-radius: 15px;
+    background-color: #44ad31b1;
+}
+
+aside > h3 {
+    background-color: #4c5c2eb0;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+aside > p {
+    padding: 10px;
+}
+
+ul {
+    column-count: 2;
+    list-style-type: '\2714\00a0\00a0';
+}
